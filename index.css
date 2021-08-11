@@ -1,0 +1,72 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+body {
+    margin: 30px;
+}
+#app{
+    width: 800px;
+    height: 600px;
+
+}
+#app, header > div, .description  {
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+}
+
+footer {
+    display: flex;
+}
+
+header > div {
+    width: 150px;
+    height: 50px;
+}
+
+footer > div {
+    margin: 10px 24px 10px 4px;
+    display: flex;
+}
+
+header > div {
+    border-bottom: 0;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    outline: none;
+}
+
+.decrease {
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.increase {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.description {
+    /*border: 1px solid black;*/
+    margin: 0 7px;
+    width: 100px;
+    height: 50px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+

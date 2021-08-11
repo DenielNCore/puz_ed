@@ -1,0 +1,51 @@
+{
+  "extends": "airbnb",
+  "env":     {
+    "browser": true,
+    "node":    true
+  },
+  "globals": {
+    "game":     true,
+    "c2d":      true,
+    "createjs": true,
+    "PIXI":     true,
+    "type":     true,
+    "Howl":     true,
+    "Howler":   true
+  },
+  "rules":   {
+    "func-names":                   ["error", "as-needed"],
+    "max-len":                      [
+      "error", {
+        "code":                   120,
+        "ignoreComments":         true,
+        "ignoreStrings":          true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals":   true
+      }
+    ],
+    "linebreak-style":              ["off"],
+    "no-underscore-dangle":         ["off"],
+    "no-multi-spaces":              ["off"],
+    "key-spacing":                  ["off"],
+    "class-methods-use-this":       ["off"],
+    "arrow-body-style":             ["off"],
+    "import/prefer-default-export": "off",
+
+
+    "semi":                         ["error", "always", { "omitLastInOneLineBlock": true }],
+    "no-unused-expressions":        [
+      "error",
+      { "allowShortCircuit": true, "allowTernary": false, "allowTaggedTemplates": true }
+    ],
+    "no-confusing-arrow":           ["error", { "allowParens": true }],
+    "no-trailing-spaces":           ["error", { "skipBlankLines": true }],
+    "no-unused-vars":               [
+      "error",
+      { "vars": "local", "args": "after-used", "ignoreRestSiblings": true, "argsIgnorePattern": "^_" }
+    ],
+    "no-plusplus":                  ["error", { "allowForLoopAfterthoughts": true }],
+    "no-param-reassign":            ["error", { "props": false }],
+    "no-return-assign":             ["off"]
+  }
+}

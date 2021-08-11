@@ -1,0 +1,38 @@
+{
+  "name": "fallingpoly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@pixi/app": "^5.3.7",
+    "@pixi/constants": "^5.3.7",
+    "@pixi/core": "^5.3.7",
+    "@pixi/graphics": "^5.3.7",
+    "@pixi/interaction": "^5.3.7",
+    "@pixi/math": "^5.3.7",
+    "@pixi/runner": "^5.3.7",
+    "@pixi/settings": "^5.3.7",
+    "@pixi/sprite": "^5.3.7",
+    "@pixi/text": "^5.3.7",
+    "@pixi/ticker": "^5.3.7",
+    "@pixi/utils": "^5.3.7",
+    "pixi.js": "^5.3.7"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenielNCore/FallingPoly.git"
+  },
+  "author": "DenielNCore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenielNCore/FallingPoly/issues"
+  },
+  "homepage": "https://github.com/DenielNCore/FallingPoly#readme"
+}
